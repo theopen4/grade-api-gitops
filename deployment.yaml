@@ -13,8 +13,6 @@ spec:
       labels:
         app: grade-submission-api
     spec:
-      imagePullSecrets:
-      - name: ghcr-secret
       containers:
       - name: grade-submission-api
         image: theopen4/testgitopsimage:aa5242c6b9c9108c48cf00c0fb33a1267d5a2d37
