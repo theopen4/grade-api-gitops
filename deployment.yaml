@@ -37,6 +37,6 @@ spec:
   selector:
     app: grade-submission-api
   ports:
-  - port: 80
+  - port: 8082
     targetPort: 3000
   type: ClusterIP
